@@ -15,3 +15,6 @@ Google Apps Scriptを TypeScript で書いて、claspでデプロイする際の
 ### デプロイ方法
 - 手元でアップロードする際 : `clasp push`
 - pushする際: mainブランチに取り込まれると、自動でデプロイされる
+
+### デプロイ設定
+- pushで自動設定する際は、`~/.clasp.json` の情報と、`clasp.json` の情報を githubに保存する
