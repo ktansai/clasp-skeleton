@@ -1,3 +1,3 @@
-function onOpen(): void {
-  SpreadsheetApp.getUi().alert("hello world");
+function main(): void {
+  console.log("Hello, World!");
 }
