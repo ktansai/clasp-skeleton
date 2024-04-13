@@ -18,3 +18,4 @@ Google Apps Scriptを TypeScript で書いて、claspでデプロイする際の
 
 ### デプロイ設定
 - pushで自動設定する際は、`~/.clasp.json` の情報と、`clasp.json` の情報を githubに保存する
+- `deploy.yml` を.github/workflows/ に配置する
